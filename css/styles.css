@@ -1,0 +1,93 @@
+/* цвет абзацев      #757575
+   цвет заголовков  #212121
+   основной цвет (цвет ховера)  #2196F3 
+   
+   background nav #FFFFFF
+   background footer #2F303A
+   background first: #F5F5F5
+   background second #F5F4FA
+   */
+
+:root {
+  --primary-text-color: #757575;
+  --title-text-color: #212121;
+  --main-color: #2196f3;
+}
+
+body {
+  background-color: #ffffff;
+  color: var(--primary-text-color);
+}
+
+/* site nav */
+
+.list {
+  list-style: none;
+}
+
+.logo {
+  color: #000000;
+}
+
+.logo > span {
+  color: var(--main-color);
+}
+
+.site-nav .link {
+  color: var(--title-color);
+}
+
+.site-nav .link:hover,
+.site-nav .link:focus {
+  color: var(--main-color);
+}
+
+.contact-nav .link {
+  color: var(--primary-text-color);
+}
+
+.contact-nav .link:hover,
+.contact-nav .link:focus {
+  color: var(--main-color);
+}
+
+/* main */
+
+.hero {
+  background-color: #2f303a;
+}
+
+.hero-title {
+  color: #ffffff;
+}
+
+.team {
+  background-color: #f5f4fa;
+}
+
+.section-title,
+.team-title {
+  color: var(--title-text-color);
+}
+
+/* footer */
+
+.footer {
+  background-color: #2f303a;
+}
+
+.footer-logo {
+  color: #ffffff;
+}
+
+.footer-logo > span {
+  color: var(--main-color);
+}
+
+.address-title .link {
+  color: #ffffff;
+}
+
+.address-title .contact {
+  color: rgba(255, 255, 255, 0.6);
+}
