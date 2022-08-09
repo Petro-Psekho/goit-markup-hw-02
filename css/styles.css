@@ -15,9 +15,16 @@
   --button-bgc: #f5f4fa;
 }
 
+button {
+  font-family: inherit;
+}
+
 body {
   background-color: #ffffff;
   color: var(--primary-text-color);
+
+  font-family: roboto, sans-serif;
+  letter-spacing: 0.03em;
 }
 
 /* site nav */
@@ -28,6 +35,11 @@ body {
 
 .logo {
   color: #000000;
+
+  font-family: raleway, sans-serif;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.2;
 }
 
 .logo > span {
@@ -36,6 +48,11 @@ body {
 
 .site-nav .link {
   color: var(--title-text-color);
+
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
 }
 
 .site-nav .link:hover,
@@ -45,6 +62,11 @@ body {
 
 .contact-nav .link {
   color: var(--primary-text-color);
+
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1, 14;
+  letter-spacing: 0.02em;
 }
 
 .contact-nav .link:hover,
@@ -60,20 +82,60 @@ body {
 
 .hero-title {
   color: #ffffff;
+
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
 }
 
 .hero-button {
   color: #ffffff;
   background-color: var(--main-color);
+
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.88;
+  letter-spacing: 0.06em;
 }
 
 .team {
   background-color: #f5f4fa;
 }
 
-.section-title,
+.section-title {
+  color: var(--title-text-color);
+
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.16;
+  text-align: center;
+}
+
 .team-title {
   color: var(--title-text-color);
+
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.16;
+  text-align: center;
+}
+
+.list .list-title {
+  color: var(--title-text-color);
+
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  text-transform: uppercase;
+}
+
+.list .text {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.7;
 }
 
 .button-list .link {
@@ -100,6 +162,10 @@ body {
 
 .footer-logo {
   color: #ffffff;
+  font-family: raleway, sans-serif;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.2;
 }
 
 .footer-logo > span {
@@ -112,4 +178,9 @@ body {
 
 .address-title .contact {
   color: rgba(255, 255, 255, 0.6);
+}
+
+.address-title .contact:hover,
+.address-title .contact:focus {
+  color: var(--main-color);
 }
