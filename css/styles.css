@@ -12,6 +12,7 @@
   --primary-text-color: #757575;
   --title-text-color: #212121;
   --main-color: #2196f3;
+  --button-bgc: #f5f4fa;
 }
 
 body {
@@ -34,7 +35,7 @@ body {
 }
 
 .site-nav .link {
-  color: var(--title-color);
+  color: var(--title-text-color);
 }
 
 .site-nav .link:hover,
@@ -68,6 +69,22 @@ body {
 .section-title,
 .team-title {
   color: var(--title-text-color);
+}
+
+.button-list .link {
+  color: var(--title-text-color);
+  background-color: var(--button-bgc);
+  border-style: none;
+}
+
+.button-list .link:hover,
+.button-list .link:focus {
+  color: #ffffff;
+  background-color: var(--main-color);
+}
+
+.section .text {
+  color: var(--primary-text-color);
 }
 
 /* footer */
