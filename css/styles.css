@@ -36,6 +36,7 @@ body {
 
 .logo {
   color: #000000;
+  text-decoration: none;
 
   font-family: raleway, sans-serif;
   font-weight: 700;
@@ -96,6 +97,7 @@ body {
   color: var(--inverts-color);
   background-color: var(--main-color);
   border-style: none;
+  cursor: pointer;
 
   font-family: roboto, sans-serif;
   font-weight: 700;
@@ -179,6 +181,7 @@ body {
   color: var(--title-text-color);
   background-color: var(--button-bgc);
   border-style: none;
+  cursor: pointer;
 
   font-family: roboto, sans-serif;
   font-weight: 500;
@@ -226,6 +229,7 @@ body {
 
 .footer-logo {
   color: var(--inverts-color);
+  text-decoration: none;
 
   font-family: raleway, sans-serif;
   font-weight: 700;
