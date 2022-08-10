@@ -104,6 +104,11 @@ body {
   letter-spacing: 0.06em;
 }
 
+.hero-button:hover,
+.hero-button:focus {
+  background-color: #188ce8;
+}
+
 /* Our features */
 
 .featufes-title,
@@ -136,7 +141,7 @@ body {
 
   font-weight: 500;
   font-size: 16px;
-  line-height: 1.19px;
+  line-height: 1.19;
   text-align: center;
 }
 
